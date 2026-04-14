@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kasumi — Security Research</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%231a1a1a'/><text x='16' y='22' text-anchor='middle' font-family='sans-serif' font-size='18' fill='white' font-weight='600'>k</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header>
+    <a href="#/" class="brand">Kasumi</a>
+    <nav>
+      <a href="#/" data-route="home" data-i18n="nav_home">Writing</a>
+      <a href="#/projects" data-route="projects" data-i18n="nav_projects">Projects</a>
+      <a href="#/about" data-route="about" data-i18n="nav_about">About</a>
+    </nav>
+    <div class="utilities">
+      <button data-lang="en">EN</button>
+      <span class="dot">·</span>
+      <button data-lang="ja">JA</button>
+      <span class="dot">·</span>
+      <button id="themeBtn" title="theme">◐</button>
+    </div>
+  </header>
+
+  <div id="app"></div>
+
+  <footer>
+    <span>© 2026 · </span>
+    <a href="mailto:kasumi@yami-net.io">kasumi@yami-net.io</a>
+    <span> · </span>
+    <a href="https://github.com/yami-net">github</a>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
